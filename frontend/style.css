@@ -1,0 +1,98 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: darkslategray;
+}
+
+input{
+	display: block;
+}
+
+.avt-form{
+    width: 345px;
+    height: 345px;
+    margin: auto;
+    background-color: #fafafa;
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 56px;
+    background-color: #03a9f4;
+}
+
+.header img{
+	filter: brightness(0) invert(1)
+}
+
+.header h1{
+	margin: 0;
+	color: white;
+	font-size: 24px;
+	font-family: "Roboto";
+}
+
+.header-content{
+	display: inline-block;
+}
+
+.input-block{
+	margin-top: 32px;
+	margin-left: 32px;
+	margin-right: 32px;
+	width: 274px;
+	height: 45px;
+	font-size: 18px;
+	font-family: "Roboto";
+	border-radius: 4px;
+	border: 2px solid #e0e0e0;
+}
+
+.input-log{
+	background: url('./img/email-icon.png') no-repeat;
+	background-position: right 5px center;
+}
+
+.input-pass{
+	margin-top: 22px;
+	background: url('./img/lock-icon.png') no-repeat;
+	background-position: right 5px center;
+}
+
+.input-btn{
+	background: none;
+	border: none;
+	box-shadow: none;
+	margin-top: 22px;
+	background-color: red;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.input-btn:hover{
+	background-color: #B60606;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 54px;
+	font-size: 14px;
+	font-family: "Roboto";
+	background-color: #eeeeee;
+}
+
+.a-registr{
+	margin-right: 15px;
+}
